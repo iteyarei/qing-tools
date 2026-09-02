@@ -15,8 +15,13 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <script type="module" crossorigin src="/qing-tools/assets/index-Cb3ZSexg.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-dua50dkm.css">
+    <script type="module">
+const texts = await Promise.all([0,1,2,3].map(i =>
+  fetch("/qing-tools/assets/index-Cb3ZSexg." + i + ".js").then(r => r.text())
+));
+await import(URL.createObjectURL(new Blob(texts, {type: "text/javascript"})));
+    </script>
   </head>
   <body>
     <div id="root"></div>
