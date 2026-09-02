@@ -1,0 +1,2 @@
+import{jsx as a,jsxs as d}from"https://esm.sh/react@18.3.1/jsx-runtime";function o({id:e,label:r,hint:l,children:s}){return d("div",{className:"field",children:[a("label",{className:"field-label",htmlFor:e,children:r}),s,l?a("p",{className:"hint",children:l}):null]})}function m({id:e,label:r,value:l,onChange:s,hint:c,readOnly:n,rows:i=8,placeholder:t}){return a(o,{id:e,label:r,hint:c,children:a("textarea",{id:e,className:"field-control",value:l,onChange:s,readOnly:n,rows:i,placeholder:t,spellCheck:!1})})}export{o as F,m as T};
+//# sourceMappingURL=Field-Bl0ktzl0.js.map
