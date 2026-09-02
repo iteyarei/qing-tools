@@ -20,7 +20,8 @@
 const texts = await Promise.all([0,1,2,3].map(i =>
   fetch("/qing-tools/assets/index-Cb3ZSexg." + i + ".js").then(r => r.text())
 ));
-const code = texts.join("").replace(/import\("\.\//g, "import(\"/qing-tools/assets/");
+const abs = location.origin + "/qing-tools/assets/";
+const code = texts.join("").replace(/import\("\.\//g, "import(\"" + abs);
 await import(URL.createObjectURL(new Blob([code], {type: "text/javascript"})));
     </script>
   </head>
