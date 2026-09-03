@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://iteyarei.github.io/qing-tools/sitemap.xml
