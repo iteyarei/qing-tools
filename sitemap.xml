@@ -4,6 +4,12 @@
     <loc>https://iteyarei.github.io/qing-tools/</loc>
   </url>
   <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/image-to-pdf</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/pdf-to-image</loc>
+  </url>
+  <url>
     <loc>https://iteyarei.github.io/qing-tools/t/char-count</loc>
   </url>
   <url>
@@ -38,9 +44,6 @@
   </url>
   <url>
     <loc>https://iteyarei.github.io/qing-tools/t/csv-json</loc>
-  </url>
-  <url>
-    <loc>https://iteyarei.github.io/qing-tools/t/image-to-pdf</loc>
   </url>
   <url>
     <loc>https://iteyarei.github.io/qing-tools/t/color</loc>
