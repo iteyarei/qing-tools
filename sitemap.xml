@@ -13,6 +13,12 @@
     <loc>https://iteyarei.github.io/qing-tools/t/id-copy-watermark</loc>
   </url>
   <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/photo-mosaic</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/id-photo-crop</loc>
+  </url>
+  <url>
     <loc>https://iteyarei.github.io/qing-tools/t/char-count</loc>
   </url>
   <url>
@@ -62,5 +68,17 @@
   </url>
   <url>
     <loc>https://iteyarei.github.io/qing-tools/t/age-zodiac</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/discount-calc</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/split-bill</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/countdown</loc>
+  </url>
+  <url>
+    <loc>https://iteyarei.github.io/qing-tools/t/quote-card</loc>
   </url>
 </urlset>
