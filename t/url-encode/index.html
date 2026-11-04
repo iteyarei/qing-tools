@@ -23,7 +23,7 @@
     />
     <!-- 預渲染的 SEO 內容只給搜尋引擎讀，視覺上隱藏，避免 React 掛載前閃出工具清單 -->
     <style>#root>article{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}</style>
-    <script type="module" crossorigin src="/qing-tools/assets/index-CYcQxPLJ.js"></script>
+    <script type="module" crossorigin src="/qing-tools/assets/index-DPWB3QYu.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-DdUP03-J.css">
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="URL 編碼／解碼 · 工具人工具網" />
@@ -37,6 +37,39 @@
         <h1>URL 編碼／解碼</h1>
         <p>encodeURIComponent 與 decodeURIComponent。</p>
         <p>本頁工具在瀏覽器本機計算，不上傳檔案、不需要帳號。</p>
+        <section>
+          <h2>URL 編碼解碼可以幫到誰</h2>
+          <p>網址裡出現一長串 %E5%B7%A5 這類看不懂的字，想還原成中文，或要把中文、空白放進網址參數時使用。</p>
+        <p>常用在分享含中文的網址、檢查追蹤連結裡的參數、工程師除錯 API。</p>
+        </section>
+        <section>
+          <h2>為什麼用我們的URL 編碼解碼</h2>
+          <p>文字只在你的瀏覽器裡轉換，不會上傳。</p>
+        <ul>
+          <li>編碼、解碼一鍵切換</li>
+          <li>中文、空白、符號都能正確處理</li>
+          <li>格式不對會直接提示</li>
+        </ul>
+        </section>
+        <section>
+          <h2>URL 編碼解碼常見問題</h2>
+          <details>
+          <summary>為什麼網址裡的中文會變成 % 開頭的字？</summary>
+          <p>網址只能放有限的字元，中文會被編成 %XX 的形式，解碼就能變回中文。</p>
+        </details>
+        <details>
+          <summary>這跟 Base64 一樣嗎？</summary>
+          <p>不一樣，URL 編碼是給網址用的，Base64 是另一種編碼方式。</p>
+        </details>
+        <details>
+          <summary>可以整個網址一起編碼嗎？</summary>
+          <p>可以，但它會連 : / ? 等符號也編碼，通常比較適合只編參數的值。</p>
+        </details>
+        <details>
+          <summary>資料會上傳嗎？</summary>
+          <p>不會，轉換只在你的瀏覽器裡進行。</p>
+        </details>
+        </section>
       <h2>同類工具</h2>
       <ul>
         <li><a href="https://iteyarei.github.io/qing-tools/t/base64/">Base64 文字編碼／解碼</a> — 把文字編成一串 Base64 代碼，或把代碼還原成文字（支援中文）。</li>

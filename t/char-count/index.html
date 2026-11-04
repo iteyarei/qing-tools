@@ -23,7 +23,7 @@
     />
     <!-- 預渲染的 SEO 內容只給搜尋引擎讀，視覺上隱藏，避免 React 掛載前閃出工具清單 -->
     <style>#root>article{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}</style>
-    <script type="module" crossorigin src="/qing-tools/assets/index-CYcQxPLJ.js"></script>
+    <script type="module" crossorigin src="/qing-tools/assets/index-DPWB3QYu.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-DdUP03-J.css">
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="字數統計 · 工具人工具網" />
@@ -37,6 +37,39 @@
         <h1>字數統計</h1>
         <p>統計中英文字元、漢字、英文單字、行數與 UTF-8 位元組。</p>
         <p>本頁工具在瀏覽器本機計算，不上傳檔案、不需要帳號。</p>
+        <section>
+          <h2>字數統計可以幫到誰</h2>
+          <p>寫作業、投稿、填表單或發社群貼文有字數限制時，把文字貼進來就能馬上看到總共幾個字。</p>
+        <p>會分別列出含空白與不含空白的字元數、中文字數、英文單字數、行數，以及 UTF-8 位元組數。</p>
+        </section>
+        <section>
+          <h2>為什麼用我們的字數統計</h2>
+          <p>邊打邊算，不用按按鈕，文字也不會上傳。</p>
+        <ul>
+          <li>中文字和英文單字分開算，中英混排也看得清楚</li>
+          <li>含空白、不含空白兩種字元數一起列出</li>
+          <li>UTF-8 位元組數方便檢查資料庫或簡訊長度</li>
+        </ul>
+        </section>
+        <section>
+          <h2>字數統計常見問題</h2>
+          <details>
+          <summary>文字會被上傳嗎？</summary>
+          <p>不會，統計只在你的瀏覽器裡進行。</p>
+        </details>
+        <details>
+          <summary>中文字數怎麼算？</summary>
+          <p>「中日韓漢字」一欄只算漢字，不含標點、數字和英文。</p>
+        </details>
+        <details>
+          <summary>英文單字怎麼算？</summary>
+          <p>連在一起的英文字母或數字算一個單字，像 don't 這類有撇號的也算一個。</p>
+        </details>
+        <details>
+          <summary>為什麼位元組數比字數多？</summary>
+          <p>UTF-8 裡一個中文字通常佔 3 個位元組，英文字母佔 1 個。</p>
+        </details>
+        </section>
       <h2>同類工具</h2>
       <ul>
         <li><a href="https://iteyarei.github.io/qing-tools/t/case-converter/">英文大小寫轉換</a> — 轉換大寫、小寫、標題、camelCase、snake_case 等。</li>

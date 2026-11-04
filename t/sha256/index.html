@@ -23,7 +23,7 @@
     />
     <!-- 預渲染的 SEO 內容只給搜尋引擎讀，視覺上隱藏，避免 React 掛載前閃出工具清單 -->
     <style>#root>article{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}</style>
-    <script type="module" crossorigin src="/qing-tools/assets/index-CYcQxPLJ.js"></script>
+    <script type="module" crossorigin src="/qing-tools/assets/index-DPWB3QYu.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-DdUP03-J.css">
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="SHA-256 雜湊碼檢查 · 工具人工具網" />
@@ -37,6 +37,39 @@
         <h1>SHA-256 雜湊碼檢查</h1>
         <p>計算文字或本機檔案的 SHA-256 雜湊碼（也常叫檔案指紋），用來核對內容有沒有被改過。不會上傳。</p>
         <p>本頁工具在瀏覽器本機計算，不上傳檔案、不需要帳號。</p>
+        <section>
+          <h2>SHA-256 雜湊碼檢查可以幫到誰</h2>
+          <p>下載軟體或收到檔案後，想確認內容有沒有被改過或下載不完整，可以算出 SHA-256 雜湊碼，跟官方公布的對照。</p>
+        <p>也能計算一段文字的雜湊碼，常用在工程師核對資料、比對兩個檔案是不是一模一樣。</p>
+        </section>
+        <section>
+          <h2>為什麼用我們的SHA-256 雜湊碼檢查</h2>
+          <p>檔案在你的瀏覽器裡讀取與計算，不會上傳，大型或機密檔也能放心核對。</p>
+        <ul>
+          <li>文字或本機檔案都能算</li>
+          <li>使用瀏覽器內建的加密功能計算</li>
+          <li>結果可一鍵複製</li>
+        </ul>
+        </section>
+        <section>
+          <h2>SHA-256 雜湊碼檢查常見問題</h2>
+          <details>
+          <summary>檔案會被上傳嗎？</summary>
+          <p>不會，檔案只在你的裝置上讀取計算。</p>
+        </details>
+        <details>
+          <summary>雜湊碼一樣代表什麼？</summary>
+          <p>代表內容完全相同；只要改了一個字元，雜湊碼就會完全不一樣。</p>
+        </details>
+        <details>
+          <summary>SHA-256 可以還原成原本的內容嗎？</summary>
+          <p>不行，雜湊是單向的，只能用來比對，不能解回原文。</p>
+        </details>
+        <details>
+          <summary>空白文字也能算嗎？</summary>
+          <p>可以，空字串有固定的雜湊碼。</p>
+        </details>
+        </section>
       <h2>同類工具</h2>
       <ul>
         <li><a href="https://iteyarei.github.io/qing-tools/t/base64/">Base64 文字編碼／解碼</a> — 把文字編成一串 Base64 代碼，或把代碼還原成文字（支援中文）。</li>

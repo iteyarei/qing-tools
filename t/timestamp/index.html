@@ -23,7 +23,7 @@
     />
     <!-- 預渲染的 SEO 內容只給搜尋引擎讀，視覺上隱藏，避免 React 掛載前閃出工具清單 -->
     <style>#root>article{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}</style>
-    <script type="module" crossorigin src="/qing-tools/assets/index-CYcQxPLJ.js"></script>
+    <script type="module" crossorigin src="/qing-tools/assets/index-DPWB3QYu.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-DdUP03-J.css">
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="Unix 時間數字轉換 · 工具人工具網" />
@@ -37,6 +37,39 @@
         <h1>Unix 時間數字轉換</h1>
         <p>把一串 Unix 時間數字轉成日期時間，或反過來。預設台北時區。</p>
         <p>本頁工具在瀏覽器本機計算，不上傳檔案、不需要帳號。</p>
+        <section>
+          <h2>Unix 時間數字轉換可以幫到誰</h2>
+          <p>在系統紀錄、資料庫或 API 裡看到 1700000000 這種一長串數字，想知道是幾月幾號幾點，貼進來就能換成日期時間，也能把日期換回數字。</p>
+        <p>預設用台北時間，也可以切換東京、香港、新加坡、上海、UTC、倫敦、紐約、洛杉磯。</p>
+        </section>
+        <section>
+          <h2>為什麼用我們的Unix 時間數字轉換</h2>
+          <p>時間只在你的瀏覽器裡換算，不會上傳。</p>
+        <ul>
+          <li>自動分辨 10 位數的秒與 13 位數的毫秒</li>
+          <li>日期時間也能反過來換成時間數字</li>
+          <li>一鍵填入現在時間並複製</li>
+        </ul>
+        </section>
+        <section>
+          <h2>Unix 時間數字轉換常見問題</h2>
+          <details>
+          <summary>Unix 時間是什麼？</summary>
+          <p>是從 1970 年 1 月 1 日 0 點（UTC）起算經過的秒數，很多系統用它記錄時間。</p>
+        </details>
+        <details>
+          <summary>秒和毫秒怎麼分？</summary>
+          <p>10 位數通常是秒，13 位數是毫秒，工具會自動判斷。</p>
+        </details>
+        <details>
+          <summary>為什麼換出來差了 8 小時？</summary>
+          <p>多半是時區不同，台北比 UTC 快 8 小時，可以在上方切換時區。</p>
+        </details>
+        <details>
+          <summary>資料會上傳嗎？</summary>
+          <p>不會，換算只在你的瀏覽器裡進行。</p>
+        </details>
+        </section>
       <h2>同類工具</h2>
       <ul>
         <li><a href="https://iteyarei.github.io/qing-tools/t/json/">JSON 格式化</a> — 驗證、格式化或壓縮 JSON，錯誤會顯示在畫面上。</li>

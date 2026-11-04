@@ -23,7 +23,7 @@
     />
     <!-- 預渲染的 SEO 內容只給搜尋引擎讀，視覺上隱藏，避免 React 掛載前閃出工具清單 -->
     <style>#root>article{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}</style>
-    <script type="module" crossorigin src="/qing-tools/assets/index-CYcQxPLJ.js"></script>
+    <script type="module" crossorigin src="/qing-tools/assets/index-DPWB3QYu.js"></script>
     <link rel="stylesheet" crossorigin href="/qing-tools/assets/index-DdUP03-J.css">
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content="CSV／JSON 表格資料轉換 · 工具人工具網" />
@@ -37,6 +37,39 @@
         <h1>CSV／JSON 表格資料轉換</h1>
         <p>把表格（CSV）與資料清單（JSON）互相轉換。可選本機檔案，只在瀏覽器讀取。</p>
         <p>本頁工具在瀏覽器本機計算，不上傳檔案、不需要帳號。</p>
+        <section>
+          <h2>CSV／JSON 轉換可以幫到誰</h2>
+          <p>手上有一份 Excel 匯出的 CSV 表格要交給程式或 API 用，或是拿到 JSON 資料想打開成表格看時，貼上或選檔就能互相轉換。</p>
+        <p>常用在整理名單、匯入匯出系統資料、工程師準備測試資料。</p>
+        </section>
+        <section>
+          <h2>為什麼用我們的CSV／JSON 轉換</h2>
+          <p>本機檔案只在瀏覽器裡讀取，不會上傳。</p>
+        <ul>
+          <li>CSV → JSON、JSON → CSV 雙向轉換</li>
+          <li>第一列當表頭，每列變成一筆資料</li>
+          <li>結果可複製或下載</li>
+        </ul>
+        </section>
+        <section>
+          <h2>CSV／JSON 轉換常見問題</h2>
+          <details>
+          <summary>檔案會上傳嗎？</summary>
+          <p>不會，選擇的檔案只在你的瀏覽器裡讀取。</p>
+        </details>
+        <details>
+          <summary>CSV 第一列一定要是欄位名稱嗎？</summary>
+          <p>是的，第一列會當成表頭，其他列依表頭變成一筆筆資料。</p>
+        </details>
+        <details>
+          <summary>JSON 要長什麼樣子？</summary>
+          <p>需要是物件陣列，例如 [{&quot;name&quot;:&quot;小明&quot;}]，單一物件也可以。</p>
+        </details>
+        <details>
+          <summary>儲存格裡有逗號怎麼辦？</summary>
+          <p>用雙引號把那格包起來就可以，引號沒結束會提示錯誤。</p>
+        </details>
+        </section>
       <h2>同類工具</h2>
       <ul>
         <li><a href="https://iteyarei.github.io/qing-tools/t/json/">JSON 格式化</a> — 驗證、格式化或壓縮 JSON，錯誤會顯示在畫面上。</li>
